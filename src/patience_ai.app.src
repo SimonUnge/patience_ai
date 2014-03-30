@@ -1,0 +1,14 @@
+{application, patience_ai,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib,
+                  deckerl,
+                  patience_game
+                 ]},
+  {mod, { patience_ai_app, []}},
+  {env, []}
+ ]}.
